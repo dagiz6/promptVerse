@@ -1,5 +1,5 @@
 import React from 'react';
-import { Zap, Sparkles } from 'lucide-react';
+import { Zap,} from 'lucide-react';
 
 export const Header: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
               <Zap className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="text-3xl font-bold text-gray-900">PromptHub</h1>
+              <h1 className="text-3xl font-bold text-gray-900">PromptVerse</h1>
               <p className="text-gray-600 text-sm">Discover and explore amazing prompts</p>
             </div>
           </div>
